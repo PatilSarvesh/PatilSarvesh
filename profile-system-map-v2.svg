@@ -1,0 +1,79 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="520" viewBox="0 0 1200 520" role="img" aria-labelledby="title desc">
+  <title id="title">Sarvesh Patil project constellation</title>
+  <desc id="desc">A visual map connecting Sarvesh Patil's projects AgentCargo, Bridge, ShortUrl, and CodeFusion through a systems-thinking core.</desc>
+  <defs>
+    <linearGradient id="panel" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#08111d"/>
+      <stop offset="1" stop-color="#0c2332"/>
+    </linearGradient>
+    <linearGradient id="core" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#765cff"/>
+      <stop offset="0.52" stop-color="#2de2c5"/>
+      <stop offset="1" stop-color="#ffb454"/>
+    </linearGradient>
+    <filter id="soft" x="-40%" y="-40%" width="180%" height="180%">
+      <feGaussianBlur stdDeviation="8" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <marker id="arrow" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto" markerUnits="strokeWidth">
+      <path d="M0 0L8 4L0 8Z" fill="#36576d"/>
+    </marker>
+  </defs>
+
+  <rect width="1200" height="520" rx="24" fill="url(#panel)"/>
+
+  <g font-family="Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif">
+    <text x="54" y="55" fill="#edf5fa" font-size="24" font-weight="720">BUILD CONSTELLATION</text>
+    <text x="1146" y="53" fill="#718c9f" text-anchor="end" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="12">PROJECTS CONNECTED BY ONE OPERATING IDEA</text>
+    <line x1="54" y1="73" x2="1146" y2="73" stroke="#284356"/>
+
+    <g fill="none" stroke="#36576d" stroke-width="2" marker-end="url(#arrow)">
+      <path d="M472 245C405 205 356 178 288 168"/>
+      <path d="M728 245C795 205 844 178 912 168"/>
+      <path d="M472 321C405 356 356 379 288 390"/>
+      <path d="M728 321C795 356 844 379 912 390"/>
+    </g>
+
+    <g transform="translate(438 188)">
+      <rect width="324" height="170" rx="26" fill="#08121c" stroke="url(#core)" stroke-width="3" filter="url(#soft)"/>
+      <text x="162" y="54" fill="#f3f8fb" text-anchor="middle" font-size="20" font-weight="740">SYSTEMS THINKING</text>
+      <text x="162" y="82" fill="#89a5b7" text-anchor="middle" font-size="13">turn ambiguity into dependable paths</text>
+      <line x1="44" y1="105" x2="280" y2="105" stroke="#264154"/>
+      <g fill="#a9c0cf" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="11" text-anchor="middle">
+        <text x="75" y="136">CONTRACTS</text>
+        <text x="162" y="136">EVIDENCE</text>
+        <text x="249" y="136">UTILITY</text>
+      </g>
+    </g>
+
+    <g transform="translate(54 105)">
+      <rect width="300" height="126" rx="17" fill="#0b1724" stroke="#6f5cff" stroke-opacity="0.7"/>
+      <text x="22" y="37" fill="#cabfff" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="11">01 / DISTRIBUTION</text>
+      <text x="22" y="69" fill="#f1f5f8" font-size="21" font-weight="720">AgentCargo</text>
+      <text x="22" y="96" fill="#8ba5b7" font-size="13">Reusable AI skills, packaged with integrity.</text>
+    </g>
+
+    <g transform="translate(846 105)">
+      <rect width="300" height="126" rx="17" fill="#0b1724" stroke="#2de2c5" stroke-opacity="0.7"/>
+      <text x="22" y="37" fill="#8ff5df" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="11">02 / AUTHORITY</text>
+      <text x="22" y="69" fill="#f1f5f8" font-size="21" font-weight="720">Bridge</text>
+      <text x="22" y="96" fill="#8ba5b7" font-size="13">Human decisions made durable for agents.</text>
+    </g>
+
+    <g transform="translate(54 326)">
+      <rect width="300" height="126" rx="17" fill="#0b1724" stroke="#ffb454" stroke-opacity="0.7"/>
+      <text x="22" y="37" fill="#ffd69e" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="11">03 / BACKEND</text>
+      <text x="22" y="69" fill="#f1f5f8" font-size="21" font-weight="720">ShortUrl</text>
+      <text x="22" y="96" fill="#8ba5b7" font-size="13">A reliable API turned into a useful product.</text>
+    </g>
+
+    <g transform="translate(846 326)">
+      <rect width="300" height="126" rx="17" fill="#0b1724" stroke="#61dafb" stroke-opacity="0.7"/>
+      <text x="22" y="37" fill="#a9ecff" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="11">04 / DEVELOPER UX</text>
+      <text x="22" y="69" fill="#f1f5f8" font-size="21" font-weight="720">CodeFusion</text>
+      <text x="22" y="96" fill="#8ba5b7" font-size="13">Everyday transformations without the friction.</text>
+    </g>
+
+    <text x="600" y="490" fill="#688699" text-anchor="middle" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="11" letter-spacing="1.4">DIFFERENT PRODUCTS / SAME INSTINCT: MAKE COMPLEX WORK FEEL CLEAR</text>
+  </g>
+</svg>
