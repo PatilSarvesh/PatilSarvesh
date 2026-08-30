@@ -4,7 +4,7 @@
 
 <p align="center">
   <a href="https://github.com/PatilSarvesh"><img src="https://img.shields.io/badge/GitHub-PatilSarvesh-111827?style=flat-square&logo=github" alt="GitHub" /></a>
-  <a href="https://naughty-davinci-145c32.netlify.app/"><img src="https://img.shields.io/badge/Portfolio-Open-0f766e?style=flat-square&logo=netlify&logoColor=white" alt="Portfolio" /></a>
+  <a href="https://sarvesh-patil.netlify.app/"><img src="https://img.shields.io/badge/Portfolio-Open-0f766e?style=flat-square&logo=netlify&logoColor=white" alt="Portfolio" /></a>
   <a href="https://x.com/sarvesh_goudru"><img src="https://img.shields.io/badge/X-@sarvesh__goudru-111111?style=flat-square&logo=x" alt="X" /></a>
 </p>
 
@@ -88,7 +88,7 @@ These show up repeatedly in what I build: explicit boundaries, safe defaults, ob
 
 ## `05 / open channel`
 
-- 🌐 [Portfolio](https://naughty-davinci-145c32.netlify.app/)
+- 🌐 [Portfolio](https://sarvesh-patil.netlify.app/)
 - 𝕏 [@sarvesh_goudru](https://x.com/sarvesh_goudru)
 - 🧭 [Explore my repositories](https://github.com/PatilSarvesh?tab=repositories)
 
@@ -97,4 +97,3 @@ These show up repeatedly in what I build: explicit boundaries, safe defaults, ob
 <p align="center">
   <code>currently refactoring the distance between an idea and dependable software.</code>
 </p>
-
